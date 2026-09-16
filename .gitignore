@@ -1,0 +1,40 @@
+# DataGrip Local Settings & Cache
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Power BI & Microsoft Office temp files
+~$*.xlsx
+~$*.xls
+~$*.csv
+*.tmp
+*.temp
+
+# Auto-recovery and crash dumps
+*.dmp
+*.log
+
+# Credentials, Environment Variables, & Secrets
+.env
+*.env
+*secret*
+*password*
+connection_strings.txt
+
+# Data Files (Excluded because dataset is linked in README)
+*.csv
+*.xlsx
+*.zip
+*.tar.gz
+
+# Windows OS Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS metadata 
+.DS_Store
